@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const authRoutes = require('./user.routes');
+const companyRoutes = require('./superAdmin/company.routes');
 
-router.use('/authentication', authRoutes);
+router.use('/superAdmin', companyRoutes);
+// router.use('/company', companyRoutes);
 
 module.exports = router;
