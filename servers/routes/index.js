@@ -1,8 +1,10 @@
+const path = require('path');
 const express = require('express');
 const router = express.Router();
 const employeeRoutes = require('./employee');
-const path = require('path')
+const signatureRoutes = require('./signature');
 
 router.use('/employee', employeeRoutes);
-// router.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+router.use('/signature', signatureRoutes);
+
 module.exports = router;
