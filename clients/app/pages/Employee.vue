@@ -93,12 +93,16 @@
       </template>
     </Modal>
   </div>
+  <SignatureCompare />
+  <SignaturePad />
 </template>
 
 
 <script setup>
 import Modal from '../../common/Modal.vue'
 import api from '~~/api.config'
+import SignatureCompare from '../../components/SignatureCompare.vue';
+import SignaturePad from '../../components/SignaturePad.vue';
 
 const config = useRuntimeConfig()
 

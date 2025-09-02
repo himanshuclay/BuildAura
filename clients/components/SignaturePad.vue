@@ -6,7 +6,7 @@
       <button @click="clear">Clear</button>
       <button @click="undo">Undo</button>
       <button @click="savePng">Save PNG</button>
-      <button @click="saveSvg">Save SVG</button>
+      <!-- <button @click="saveSvg">Save SVG</button> -->
     </div>
   </div>
 </template>

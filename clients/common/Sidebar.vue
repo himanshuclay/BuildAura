@@ -137,7 +137,9 @@ const props = defineProps({
     //       { label: 'Create', to: '/products/new' }
     //     ]
     //   },
+      { label: 'Generate Signature', to: '/generate-signature' },
       { label: 'Employee', to: '/employee' },
+      { label: 'Validation', to: '/validation' },
     //   { label: 'Settings', to: '/settings' }
     ])
   },
